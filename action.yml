@@ -1,0 +1,12 @@
+name: 'Zip extract'
+description: 'Extract a zip file from path'
+inputs:
+  input-path:
+    description: 'zip file path'
+    required: true
+  output-path:
+    description: 'extract folder path'
+    required: true
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
